@@ -1,0 +1,60 @@
+////////////////////////////////////////////////
+//  Keyboard layout generated with TriXKBGen  //
+//  https://github.com/trimill/xkbgen/        //
+////////////////////////////////////////////////
+// vim: set syn=xkb:
+
+default partial alphanumeric_keys modifier_keys
+xkb_symbols "special" {
+    name[Group1]="Special";
+    include "level3(ralt_switch)"
+    include "level5(rctrl_switch)"
+    key.type[Group1] = "EIGHT_LEVEL_ALPHABETIC_LEVEL_FIVE_LOCK";
+    key <TLDE> {[ grave, asciitilde ]};
+    key <AE01> {[ 1, exclam, U1D7D9, U1D7F7 ]};
+    key <AE02> {[ 2, at, U1D7DA, U1D7F8 ]};
+    key <AE03> {[ 3, numbersign, U1D7DB, U1D7F9 ]};
+    key <AE04> {[ 4, dollar, U1D7DC, U1D7FA ]};
+    key <AE05> {[ 5, percent, U1D7DD, U1D7FB ]};
+    key <AE06> {[ 6, asciicircum, U1D7DE, U1D7FC ]};
+    key <AE07> {[ 7, ampersand, U1D7DF, U1D7FD ]};
+    key <AE08> {[ 8, asterisk, U1D7E0, U1D7FE ]};
+    key <AE09> {[ 9, parenleft, U1D7E1, U1D7FF ]};
+    key <AE10> {[ 0, parenright, U1D7D8, U1D7F6 ]};
+    key <AD01> {[ q, U24C6, U1D492, U1D478, U1D52E, U1D514, U1D69A, U1D680 ]};
+    key <AD02> {[ w, U24CC, U1D498, U1D47E, U1D534, U1D51A, U1D6A0, U1D686 ]};
+    key <AD03> {[ e, U24BA, U1D486, U1D46C, U1D522, U1D508, U1D68E, U1D674 ]};
+    key <AD04> {[ r, U24C7, U1D493, U1D479, U1D52F, NoSymbol, U1D69B, U1D681 ]};
+    key <AD05> {[ t, U24C9, U1D495, U1D47B, U1D531, U1D517, U1D69D, U1D683 ]};
+    key <AD06> {[ y, U24CE, U1D49A, U1D480, U1D536, U1D51C, U1D6A2, U1D688 ]};
+    key <AD07> {[ u, U24CA, U1D496, U1D47C, U1D532, U1D518, U1D69E, U1D684 ]};
+    key <AD08> {[ i, U24BE, U1D48A, U1D470, U1D526, NoSymbol, U1D692, U1D678 ]};
+    key <AD09> {[ o, U24C4, U1D490, U1D476, U1D52C, U1D512, U1D698, U1D67E ]};
+    key <AD10> {[ p, U24C5, U1D491, U1D477, U1D52D, U1D513, U1D699, U1D67F ]};
+    key <AC01> {[ a, U24B6, U1D482, U1D468, U1D51E, U1D504, U1D68A, U1D670 ]};
+    key <AC02> {[ s, U24C8, U1D494, U1D47A, U1D530, U1D516, U1D69C, U1D682 ]};
+    key <AC03> {[ d, U24B9, U1D485, U1D46B, U1D521, U1D507, U1D68D, U1D673 ]};
+    key <AC04> {[ f, U24BB, U1D487, U1D46D, U1D523, U1D509, U1D68F, U1D675 ]};
+    key <AC05> {[ g, U24BC, U1D488, U1D46E, U1D524, U1D50A, U1D690, U1D676 ]};
+    key <AC06> {[ h, U24BD, U1D489, U1D46F, U1D525, NoSymbol, U1D691, U1D677 ]};
+    key <AC07> {[ j, U24BF, U1D48B, U1D471, U1D527, U1D50D, U1D693, U1D679 ]};
+    key <AC08> {[ k, U24C0, U1D48C, U1D472, U1D528, U1D50E, U1D694, U1D67A ]};
+    key <AC09> {[ l, U24C1, U1D48D, U1D473, U1D529, U1D50F, U1D695, U1D67B ]};
+    key <AB01> {[ z, U24CF, U1D49B, U1D481, U1D537, NoSymbol, U1D6A3, U1D689 ]};
+    key <AB02> {[ x, U24CD, U1D499, U1D47F, U1D535, U1D51B, U1D6A1, U1D687 ]};
+    key <AB03> {[ c, U24B8, U1D484, U1D46A, U1D520, NoSymbol, U1D68C, U1D672 ]};
+    key <AB04> {[ v, U24CB, U1D497, U1D47D, U1D533, U1D519, U1D69F, U1D685 ]};
+    key <AB05> {[ b, U24B7, U1D483, U1D469, U1D51F, U1D505, U1D68B, U1D671 ]};
+    key <AB06> {[ n, U24C3, U1D48F, U1D475, U1D52B, U1D511, U1D697, U1D67D ]};
+    key <AB07> {[ m, U24C2, U1D48E, U1D474, U1D52A, U1D510, U1D696, U1D67C ]};
+    key <AC11> {[ apostrophe, quotedbl ]};
+    key <AC10> {[ semicolon, colon ]};
+    key <AD11> {[ bracketleft, braceleft ]};
+    key <AD12> {[ bracketright, braceright ]};
+    key <AE11> {[ minus, underscore ]};
+    key <AE12> {[ equal, plus ]};
+    key <BKSL> {[ backslash, bar ]};
+    key <AB08> {[ comma, less ]};
+    key <AB09> {[ period, greater ]};
+    key <AB10> {[ slash, question ]};
+};
