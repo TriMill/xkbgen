@@ -15,7 +15,7 @@ xkb_symbols "ipa" {
     key <AE02> {[ 2, at, U02E8, U0361 ]};
     key <AE03> {[ 3, numbersign, U02E7, U035C ]};
     key <AE04> {[ 4, dollar, U02E6, U203F ]};
-    key <AE05> {[ 5, percent, U02E5, NoSymbol ]};
+    key <AE05> {[ 5, percent, U02E5, dead_ogonek, dead_horn ]};
     key <AE06> {[ 6, asciicircum, dead_caron, dead_circumflex, U032C ]};
     key <AE07> {[ 7, ampersand, dead_cedilla, dead_hook, U033C ]};
     key <AE08> {[ 8, asterisk, dead_abovedot, dead_belowdot, U033B ]};
@@ -56,5 +56,5 @@ xkb_symbols "ipa" {
     key <BKSL> {[ backslash, bar, U02BC, NoSymbol, U2191, U2193 ]};
     key <AB08> {[ comma, less, U27E8, U2197, U339, U357 ]};
     key <AB09> {[ period, greater, U27E9, U2198, U31C, U351 ]};
-    key <AB10> {[ slash, question, U0294, U02A1, U0295, U02A2 ]};
+    key <AB10> {[ slash, question, U0294, U02A1, U0295, U02A2, U02E4, U02C0 ]};
 };
