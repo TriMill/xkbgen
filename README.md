@@ -16,14 +16,15 @@ PyYAML: `pip install pyyaml`
 
 The following properties can or must be set in the YAML file:
 
-| Name            | Required | Description                    | Values                                     | Example                   |
-| `name`          | yes      | The name of the layout variant | Any string, usually lowercase alphanumeric | `name: "ipa"`             |
-| `groupname`     | yes      | The name of the group          | Any string                                 | `groupname: "IPA (US)"`   |
-| `layout`        | yes      | The keyboard layout            | `qwerty` (more may be added later)         | `layout: "qwerty"`        |
-| `layout-locale` | yes      | The keyboard layout's locale   | `us` (more may be added later)             | `layout-locale: "us"`     |
-| `level3`        | no       | The key used to access level 3 | See below                                  | `level3: "ralt_switch"`   |
-| `level5`        | no       | The key used to access level 5 | See below                                  | `level5: "rctrl_switch"`  |
-| `keys`          | yes      | The keymap (see below)         | An object                                  |                           |
+| Name            | Required | Description                    | Values                                     | Example                  |
+| --------------- | -------- | ------------------------------ | ------------------------------------------ | ------------------------ |
+| `name`          | yes      | The name of the layout variant | Any string, usually lowercase alphanumeric | `name: "ipa"`            |
+| `groupname`     | yes      | The name of the group          | Any string                                 | `groupname: "IPA (US)"`  |
+| `layout`        | yes      | The keyboard layout            | `qwerty` (more may be added later)         | `layout: "qwerty"`       |
+| `layout-locale` | yes      | The keyboard layout's locale   | `us` (more may be added later)             | `layout-locale: "us"`    |
+| `level3`        | no       | The key used to access level 3 | See below                                  | `level3: "ralt_switch"`  |
+| `level5`        | no       | The key used to access level 5 | See below                                  | `level5: "rctrl_switch"` |
+| `keys`          | yes      | The keymap (see below)         | An object                                  |                          |
 
 The possible options for `level3` and `level5` can be viewed in `/usr/share/X11/xkb/symbols/level3` and `/usr/share/X11/xkb/symbols/level5`, respectively.
 
